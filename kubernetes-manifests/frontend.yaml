@@ -30,7 +30,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: frontend
+          image: harbor.iaasadmin.in/microservices_dev/frontend:afdc4f989ef3b6fc45c26455ae27cef35a3a4da5
           ports:
           - containerPort: 8080
           readinessProbe:

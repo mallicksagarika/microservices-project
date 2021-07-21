@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: cartservice
+        image: harbor.iaasadmin.in/microservices_dev/cartservice:afdc4f989ef3b6fc45c26455ae27cef35a3a4da5
         ports:
         - containerPort: 7070
         env:
