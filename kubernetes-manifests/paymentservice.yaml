@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: harbor.iaasadmin.in/microservices_dev/paymentservice:afdc4f989ef3b6fc45c26455ae27cef35a3a4da5
+        image: harbor.iaasadmin.in/microservices_dev/paymentservice:latest
         ports:
         - containerPort: 50051
         env:

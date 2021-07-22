@@ -48,7 +48,7 @@ spec:
           value: "frontend:80"
       containers:
       - name: main
-        image: harbor.iaasadmin.in/microservices_dev/loadgenerator:afdc4f989ef3b6fc45c26455ae27cef35a3a4da5
+        image: harbor.iaasadmin.in/microservices_dev/loadgenerator:latest
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
