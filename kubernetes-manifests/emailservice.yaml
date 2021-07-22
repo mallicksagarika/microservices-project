@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: harbor.iaasadmin.in/microservices_dev/emailservice:1.0.0
+        image: harbor.iaasadmin.in/microservices_prod/emailservice:1.0.0
         ports:
         - containerPort: 8080
         env:
