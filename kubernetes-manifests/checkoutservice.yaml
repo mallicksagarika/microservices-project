@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: checkoutservice
+          image: harbor.iaasadmin.in/microservices_dev/checkoutservice:1.0.0
           ports:
           - containerPort: 5050
           readinessProbe:

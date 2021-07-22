@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: recommendationservice
+        image: harbor.iaasadmin.in/microservices_dev/recommendationservice:1.0.0
         ports:
         - containerPort: 8080
         readinessProbe:

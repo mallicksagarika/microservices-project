@@ -28,7 +28,7 @@ spec:
       serviceAccountName: default
       containers:
       - name: server
-        image: shippingservice
+        image: harbor.iaasadmin.in/microservices_dev/shippingservice:1.0.0
         ports:
         - containerPort: 50051
         env:

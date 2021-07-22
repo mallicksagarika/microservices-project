@@ -29,7 +29,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: currencyservice
+        image: harbor.iaasadmin.in/microservices_dev/currencyservice:1.0.0
         ports:
         - name: grpc
           containerPort: 7000
